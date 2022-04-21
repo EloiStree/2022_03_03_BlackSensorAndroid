@@ -722,37 +722,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &729845797
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 729845798}
-  m_Layer: 0
-  m_Name: On Standalone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &729845798
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729845797}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1002294542}
-  m_Father: {fileID: 1426368008}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &795705125
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,52 +1435,6 @@ MonoBehaviour:
   m_historyReceivedToUncompress:
     m_historySize: 10
     m_history: []
---- !u!1 &931012004
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 931012006}
-  - component: {fileID: 931012005}
-  m_Layer: 0
-  m_Name: Debug Input Received
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &931012005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931012004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c784c3c901702046aaa2a4fb497e765, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_debugHistory:
-    m_historySize: 10
-    m_history: []
---- !u!4 &931012006
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931012004}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1002294542}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &937118472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1545,104 +1468,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1002294541
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1002294542}
-  - component: {fileID: 1002294545}
-  - component: {fileID: 1002294544}
-  m_Layer: 0
-  m_Name: PhoneSensorPushAndReceive
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1002294542
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002294541}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 931012006}
-  m_Father: {fileID: 729845798}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1002294544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002294541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b07dadb02fa15049b03194688d7150e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1002294545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002294541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d54acac2a4f3776459728519e03ba38e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_mobileSensorUpdate:
-    m_acceleration: {x: 0, y: 0, z: 0}
-    m_gyroGravity: {x: 0, y: 0, z: 0}
-    m_compassRawVector: {x: 0, y: 0, z: 0}
-    m_locationGPS: {x: 0, y: 0, z: 0}
-    m_compassMagneticHeading: 0
-  maxLeft: 3
-  maxRight: 4
-  phoneId: D
-  current_Acceleration: 
-  id_current_Acceleration: "\xA5a"
-  current_CompassRaw: 
-  id_current_CompassRaw: "\xA5cr"
-  current_CompassHeading: 
-  id_current_CompassHeading: "\xA5ch"
-  current_Gyro: 
-  id_current_Gyro: "\xA5gyro"
-  current_GPS: 
-  id_current_GPS: "\xA5gps"
-  id_inputString: "\xA5is"
-  m_textToSentOnNetwork:
-    m_PersistentCalls:
-      m_Calls: []
-  m_inputStringReceived:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 931012005}
-        m_TargetAssemblyTypeName: StringHistoryDebugMono, Assembly-CSharp
-        m_MethodName: PushIn
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  m_historyReceivedToUncompress:
-    m_historySize: 10
-    m_history: []
 --- !u!1 &1060596661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,8 +1768,8 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!114 &1161597758 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2653560370036462563, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
-  m_PrefabInstance: {fileID: 2653560368914186461}
+  m_CorrespondingSourceObject: {fileID: 2136941496657755337, guid: 95ed7def309a125409216e05e2692763, type: 3}
+  m_PrefabInstance: {fileID: 2136941497682964471}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -2154,38 +1979,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_choosedFrameRate: 10
---- !u!1 &1426368007
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1426368008}
-  m_Layer: 0
-  m_Name: UDP ANDROID
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1426368008
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1426368007}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1920, y: 216, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2101201350}
-  - {fileID: 729845798}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1546385966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2593,101 +2386,60 @@ MonoBehaviour:
   m_debugHistory:
     m_historySize: 10
     m_history: []
---- !u!4 &2101201350 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2653560369680147198, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
-  m_PrefabInstance: {fileID: 2653560368914186461}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &2653560368914186461
+--- !u!1001 &2136941497682964471
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1426368008}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2653560369374272134, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
-      propertyPath: m_portId
-      value: 3615
-      objectReference: {fileID: 0}
-    - target: {fileID: 2653560369374272134, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
-      propertyPath: m_messageReceived.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2653560369374272134, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
-      propertyPath: m_messageReceived.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2653560369374272134, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
-      propertyPath: m_messageReceived.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1002294545}
-    - target: {fileID: 2653560369374272134, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
-      propertyPath: m_messageReceived.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2653560369374272134, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
-      propertyPath: m_messageReceived.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ReceiveMessageToUncompress
-      objectReference: {fileID: 0}
-    - target: {fileID: 2653560369374272134, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
-      propertyPath: m_messageReceived.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: PhoneSensorPushAndReceive, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2653560369374272134, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
-      propertyPath: m_messageReceived.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 2653560369680147197, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
+    - target: {fileID: 2136941496390879728, guid: 95ed7def309a125409216e05e2692763, type: 3}
       propertyPath: m_Name
-      value: UDPThreadManager
+      value: UDP ANDROID Listener
       objectReference: {fileID: 0}
-    - target: {fileID: 2653560369680147198, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
+    - target: {fileID: 2136941496390879743, guid: 95ed7def309a125409216e05e2692763, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 2653560369680147198, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
+    - target: {fileID: 2136941496390879743, guid: 95ed7def309a125409216e05e2692763, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1302.615
+      value: 1920
       objectReference: {fileID: 0}
-    - target: {fileID: 2653560369680147198, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
+    - target: {fileID: 2136941496390879743, guid: 95ed7def309a125409216e05e2692763, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 290.36798
+      value: 216
       objectReference: {fileID: 0}
-    - target: {fileID: 2653560369680147198, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
+    - target: {fileID: 2136941496390879743, guid: 95ed7def309a125409216e05e2692763, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2653560369680147198, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
+    - target: {fileID: 2136941496390879743, guid: 95ed7def309a125409216e05e2692763, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2653560369680147198, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
+    - target: {fileID: 2136941496390879743, guid: 95ed7def309a125409216e05e2692763, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2653560369680147198, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
+    - target: {fileID: 2136941496390879743, guid: 95ed7def309a125409216e05e2692763, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2653560369680147198, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
+    - target: {fileID: 2136941496390879743, guid: 95ed7def309a125409216e05e2692763, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2653560369680147198, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
+    - target: {fileID: 2136941496390879743, guid: 95ed7def309a125409216e05e2692763, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2653560369680147198, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
+    - target: {fileID: 2136941496390879743, guid: 95ed7def309a125409216e05e2692763, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2653560369680147198, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
+    - target: {fileID: 2136941496390879743, guid: 95ed7def309a125409216e05e2692763, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2653560370036462560, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 58168cc3ed8bb0c4d95f80d6ea114f26, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 95ed7def309a125409216e05e2692763, type: 3}
